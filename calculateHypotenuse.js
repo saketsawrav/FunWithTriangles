@@ -6,6 +6,11 @@ const checkBtn = document.querySelector("#check-btn")
 checkBtn.addEventListener("click", calculateHypotenuse)
 
 function calculateHypotenuse() {
-    console.log(inputSideA.value, inputSideB.value)
-    outputEl.innerText = "This is a test"
+    calculateSumOfSquaresOfSides(inputSideA.value, inputSideB.value)
+    const hypotenuse = Math.sqrt(sumOfSquares)
+    outputEl.innerText = "The Hypotenuse of the Side angle's entered is: " + hypotenuse
+}
+
+function calculateSumOfSquaresOfSides (sideA, sideB) {
+    sumOfSquares = Number(sideA*sideA) + Number(sideB*sideB)
 }
