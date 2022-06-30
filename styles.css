@@ -289,3 +289,93 @@ body {
     background-color: var(--azure);
     border: 1px transparent;
 }
+
+/* Page4 */
+
+#page-4 .nav {
+    display: flex;
+    background-color: var(--azure);
+    height: 100px;
+    align-items: flex-end;
+}
+
+#page-4 .nav a{
+    text-decoration: none;
+    padding: 5px;
+    flex-shrink: 1;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+#page-4 .nav a.current {
+    font-weight: bolder;
+}
+
+#page-4 .nav h1 {
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+#page-4 p {
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+#page-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#page-4 #output-box {
+    display: block;
+    border: 2px solid white;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: beige;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#page-4 h2,h3 {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+#page-4 label {
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#page-4 input {
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+#page-4 button {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--azure);
+    border: 1px transparent;
+}
