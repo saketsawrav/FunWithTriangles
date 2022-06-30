@@ -136,6 +136,7 @@ body {
     color: black;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    margin-bottom: 14%;
 }
 
 #page-2 .nav {
@@ -181,6 +182,7 @@ body {
     color: black;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    margin-bottom: 6%;
 }
 
 #page-2 label {
@@ -255,6 +257,7 @@ body {
     color: black;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 #page-3 h2,h3 {
@@ -378,4 +381,58 @@ body {
     border-radius: 0.5rem;
     background-color: var(--azure);
     border: 1px transparent;
+}
+
+#footer {
+    all: revert;
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+
+#footer p {
+    all: revert;
+    text-align: center;
+    background-color: var(--azure);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 1rem;
+    font-size: large;
+    font-weight: 400;
+}
+
+#footer .social {
+    all: revert;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: var(--azure);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#footer .social p {
+    all: revert;
+    flex-grow: 1;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+#footer .social li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+#footer .social a {
+    all: revert;
+    text-decoration: none;
+    color: black;
+}
+
+#footer .social img {
+    all: revert;
+    width: 30px;
+    height: 30px;
 }
