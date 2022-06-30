@@ -137,3 +137,68 @@ body {
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
+
+#page-2 .nav {
+    display: flex;
+    background-color: var(--azure);
+    height: 100px;
+    align-items: flex-end;
+}
+
+#page-2 .nav a{
+    text-decoration: none;
+    padding: 5px;
+    flex-shrink: 1;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 400;
+}
+
+#page-2 .nav a.current {
+    font-weight: bolder;
+}
+
+#page-2 .nav h1 {
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+#page-2 p {
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+#page-2 #output {
+    display: block;
+    border: 2px solid white;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: beige;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#page-2 label {
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#page-2 button {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--azure);
+    border: 1px transparent;
+}
